@@ -1,13 +1,28 @@
 .Weather li {
 	list-style: none;
+	color: #302f41;
 }
 
 .Weather canvas {
 	margin: 10px;
 	padding: 10px;
+	position: relative;
+	right: 20px;
 }
 
 .Weather {
 	margin: 10px;
 	padding: 10px;
+}
+
+.Weather .temperature {
+	position: relative;
+	top: -40px;
+	font-size: 64px;
+}
+
+.units {
+	position: relative;
+	top: -74px;
+	margin: 5px;
 }

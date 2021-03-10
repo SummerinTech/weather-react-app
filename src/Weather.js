@@ -15,10 +15,11 @@ export default function Weather() {
 					<ReactAnimatedWeather
 						icon="CLEAR_DAY"
 						color="black"
-						size={60}
+						size={75}
 						animate={true}
 					/>
-					6°C|F
+					<span className="temperature">6</span>
+					<span className="units">°C|F</span>
 				</div>
 				<div className="col-6">
 					<ul>
