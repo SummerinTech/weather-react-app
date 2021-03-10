@@ -1,6 +1,7 @@
 import SearchEngine from "./SearchEngine";
 import Weather from "./Weather";
 import Forecast from "./Forecast";
+import { ReactComponent as ReactLogo } from "./WeatherIcon.svg";
 import "./App.css";
 
 function App() {
