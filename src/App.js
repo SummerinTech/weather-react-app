@@ -15,7 +15,10 @@ function App() {
 			</div>
 			<footer>
 				{" "}
-				<a href="#">Open-source code</a> by Summer Robinson
+				<a href="https://github.com/SummerinTech" target="about_blank">
+					Open-source code
+				</a>{" "}
+				by Summer Robinson
 			</footer>
 		</div>
 	);
