@@ -1,6 +1,13 @@
 .App {
 	max-width: 600px;
-	border: 1px solid black;
+	border: 1px solid #c6a9a3;
 	margin: 0 auto;
 	padding: 10px;
+	background-color: #c6a9a3;
+}
+
+footer {
+	text-transform: capitalize;
+	text-align: center;
+	margin: 0 auto;
 }

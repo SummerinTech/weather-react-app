@@ -1,13 +1,22 @@
 import SearchEngine from "./SearchEngine";
+import Weather from "./Weather";
+import Forecast from "./Forecast";
 import "./App.css";
 
 function App() {
 	return (
-		<div className="App">
-			<div className="container">
-				<SearchEngine />
-				<button className="btn btn-primary">Click Me</button>
+		<div>
+			<div className="App">
+				<div className="container">
+					<SearchEngine />
+					<Weather />
+					<Forecast />
+				</div>
 			</div>
+			<footer>
+				{" "}
+				<a href="#">Open-source code</a> by Summer Robinson
+			</footer>
 		</div>
 	);
 }

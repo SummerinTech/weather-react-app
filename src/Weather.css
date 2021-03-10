@@ -1,0 +1,13 @@
+.Weather li {
+	list-style: none;
+}
+
+.Weather canvas {
+	margin: 10px;
+	padding: 10px;
+}
+
+.Weather {
+	margin: 10px;
+	padding: 10px;
+}
