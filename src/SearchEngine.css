@@ -1,1 +1,11 @@
+.submit {
+	background: #9a8194;
+	border: 1px solid #9a8194;
+	color: #212529;
+}
 
+.submit:hover {
+	background: #bda8b8;
+	border: 1px solid #bda8b8;
+	color: #212529;
+}

@@ -36,7 +36,7 @@ export default function SearchEngine() {
 	// 	}
 
 	return (
-		<div className="search-engine">
+		<div className="searchEngine">
 			<form>
 				<div className="row">
 					<div className="col-9">
@@ -47,7 +47,11 @@ export default function SearchEngine() {
 						/>
 					</div>
 					<div className="col-3">
-						<input type="submit" value="Search" className="btn btn-primary" />
+						<input
+							type="submit"
+							value="Search"
+							className="btn btn-primary submit"
+						/>
 					</div>
 				</div>
 			</form>
