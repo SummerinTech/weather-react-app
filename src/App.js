@@ -8,7 +8,6 @@ function App() {
 		<div>
 			<div className="App">
 				<div className="container">
-					<SearchEngine />
 					<Weather />
 					<Forecast />
 				</div>
