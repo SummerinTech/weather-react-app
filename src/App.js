@@ -1,4 +1,3 @@
-import SearchEngine from "./SearchEngine";
 import Weather from "./Weather";
 import Forecast from "./Forecast";
 import "./App.css";
