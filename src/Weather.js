@@ -1,14 +1,12 @@
 import React, { useState } from "react";
-import FormattedDate from "./FormattedDate";
 import axios from "axios";
-import ReactAnimatedWeather from "react-animated-weather";
+import WeatherInfo from "./WeatherInfo";
 import "./Weather.css";
 
 export default function Weather() {
 	let [weatherData, setWeatherData] = useState({ ready: false });
 
 	function handleResponse(response) {
-		console.log(response.data);
 		setWeatherData({
 			ready: true,
 			city: response.data.name,
@@ -41,31 +39,7 @@ export default function Weather() {
 						</div>
 					</div>
 				</form>
-				<h1>{weatherData.city}</h1>
-				<ul>
-					<li>
-						<FormattedDate date={weatherData.date} />
-					</li>
-					<li>{weatherData.description}</li>
-				</ul>
-				<div className="row">
-					<div className="col-6">
-						<ReactAnimatedWeather
-							icon="CLEAR_DAY"
-							color="black"
-							size={75}
-							animate={true}
-						/>
-						<span className="temperature">{weatherData.temperature}</span>
-						<span className="units">°C|F</span>
-					</div>
-					<div className="col-6">
-						<ul>
-							<li>Humidity: {weatherData.humidity}%</li>
-							<li>Wind Speed: {weatherData.wind}km/h</li>
-						</ul>
-					</div>
-				</div>
+				<WeatherInfo data={weatherData} />
 			</div>
 		);
 	} else {
