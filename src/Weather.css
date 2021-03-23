@@ -21,13 +21,15 @@
 
 .Weather .temperature {
 	position: relative;
-	top: -40px;
+	top: -110px;
+	left: 80px;
 	font-size: 64px;
 }
 
 .units {
 	position: relative;
-	top: -74px;
+	top: -140px;
+	left: 87px;
 	margin: 5px;
 }
 
@@ -41,4 +43,15 @@
 	background: #bda8b8;
 	border: 1px solid #bda8b8;
 	color: #212529;
+}
+
+input.form-control {
+	position: relative;
+	right: 5px;
+	top: -10px;
+}
+
+input.btn {
+	position: relative;
+	top: -10px;
 }
