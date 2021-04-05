@@ -1,5 +1,4 @@
 import Weather from "./Weather";
-import Forecast from "./Forecast";
 import "./App.css";
 
 function App() {
@@ -8,7 +7,6 @@ function App() {
 			<div className="App">
 				<div className="container">
 					<Weather defaultCity="London" />
-					<Forecast />
 				</div>
 			</div>
 			<footer>
