@@ -11,7 +11,10 @@ function App() {
 			</div>
 			<footer>
 				{" "}
-				<a href="https://github.com/SummerinTech" target="about_blank">
+				<a
+					href="https://github.com/SummerinTech/weather-react-app"
+					target="about_blank"
+				>
 					Open-source code
 				</a>{" "}
 				by Summer Robinson
