@@ -2,14 +2,24 @@
 	text-transform: capitalize;
 }
 
+h1 {
+	font-family: "Lora", serif;
+	font-size: 55px;
+}
+
+a {
+	color: #9a8194;
+}
+
 .Weather li {
 	list-style: none;
 	color: #302f41;
+	font-family: "Open Sans", sans-serif;
 }
 
 .Weather canvas {
-	margin: 10px;
-	padding: 10px;
+	margin: 5px;
+	padding: 5px;
 	position: relative;
 	right: 0px;
 }
@@ -21,19 +31,19 @@
 
 .Weather .temperature {
 	position: relative;
-	top: -100px;
+	top: -90px;
 	left: 80px;
 	font-size: 64px;
 }
 
 .units {
 	position: relative;
-	top: -133px;
+	top: -125px;
 	left: 76px;
-	margin: 5px;
+	margin: 0;
 }
 
-.submit {
+.Weather .submit {
 	background: #9a8194;
 	border: 1px solid #9a8194;
 	color: #212529;
@@ -47,11 +57,17 @@
 
 input.form-control {
 	position: relative;
-	right: 5px;
+	right: -14px;
 	top: -10px;
 }
 
 input.btn {
+	left: 25px;
 	position: relative;
 	top: -10px;
+	height: 40px;
+}
+
+div.col-3 {
+	padding: 0;
 }

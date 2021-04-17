@@ -10,5 +10,9 @@ div.weather-group {
 }
 
 div.data-group {
-	top: 20px;
+	top: 9px;
+}
+
+h1 {
+	margin: 0;
 }

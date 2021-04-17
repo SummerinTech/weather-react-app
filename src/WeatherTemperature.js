@@ -21,7 +21,6 @@ export default function WeatherTemperature(props) {
 					°C|
 					<span>
 						<a href="/" onClick={convertToFahrenheit}>
-							{" "}
 							°F
 						</a>{" "}
 					</span>

@@ -15,6 +15,7 @@ footer {
 	text-transform: capitalize;
 	text-align: center;
 	margin: 0 auto;
+	padding-top: 5px;
 }
 
 a {
@@ -24,4 +25,8 @@ a {
 a:hover {
 	color: #763e69;
 	text-decoration: none;
+}
+
+.container {
+	padding: 0;
 }
