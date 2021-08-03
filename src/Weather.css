@@ -63,6 +63,7 @@ input.form-control {
 
 .form-control:focus {
 	box-shadow: none;
+	border-color: none;
 }
 
 input.btn {
