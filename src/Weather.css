@@ -73,6 +73,19 @@ input.btn {
 	height: 40px;
 }
 
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+	color: #fff;
+	background-color: none;
+	border-color: none;
+}
+
+btn.focus,
+.btn:focus {
+	box-shadow: none;
+}
+
 div.col-3 {
 	padding: 0;
 }
