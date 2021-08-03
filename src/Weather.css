@@ -61,6 +61,10 @@ input.form-control {
 	top: -10px;
 }
 
+.form-control:focus {
+	box-shadow: none;
+}
+
 input.btn {
 	left: 25px;
 	position: relative;
